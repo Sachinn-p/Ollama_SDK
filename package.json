@@ -1,0 +1,29 @@
+{
+  "name": "ollama-websocket",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "node server.js",
+    "server-activity": "node server-activity.js",
+    "client": "node client.js",
+    "client-cli": "node client-cli.js",
+    "client-activity": "node client-activity.js",
+    "dashboard": "node dashboard.js",
+    "code-completer": "node CodeCompleter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "ollama": "^0.5.17",
+    "ws": "^8.18.3"
+  }
+}
