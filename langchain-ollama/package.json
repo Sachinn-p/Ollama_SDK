@@ -1,0 +1,27 @@
+{
+  "name": "langchain-ollama",
+  "version": "1.0.0",
+  "main": "dist/ollama-agent.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/ollama-agent.js",
+    "dev": "ts-node src/ollama-agent.ts",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["langchain", "ollama", "typescript", "ai", "agent"],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.55",
+    "@langchain/core": "^0.3.75",
+    "@langchain/ollama": "^0.2.4",
+    "@types/node": "^24.4.0",
+    "dotenv": "^16.6.1",
+    "langchain": "^0.3.33",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
